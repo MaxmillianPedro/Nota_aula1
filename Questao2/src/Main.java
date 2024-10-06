@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -29,14 +28,5 @@ public class Main {
             resp = sc.next();
             produtos.add(p);
         } while (resp.equalsIgnoreCase("S"));
-        /*Ainda não aprendi arrays na sua disciplina, tambem não sei como efetuar a venda com seus requisitos...*/
-
-        System.out.println(produtos);
-
-        for (Produto produto : produtos) {
-            if (produto.getCodigo() == sc2.nextLine()) {
-                produto.setEstoque(produto.getEstoque() - 1);
-            }
-        }
     }
 }
