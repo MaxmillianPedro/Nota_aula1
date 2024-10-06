@@ -5,8 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Scanner sc2 = new Scanner(System.in);
         Produto p = new Produto();
-
-        ArrayList<Produto> produtos = new ArrayList<>();
         String resp;
 
         do {
